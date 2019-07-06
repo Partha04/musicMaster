@@ -40,7 +40,7 @@ class App extends Component {
   render() { 
     console.log(this.state);
     return ( <div>
-      <h1>Music Master</h1>
+      <h1 className='header'>Music Master</h1>
       <input  
       placeholder="Search for a Artist" 
       onChange={this.updateArtistQuary}
